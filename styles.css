@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #cacaca;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap:20em;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 40%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:3em;
+}
+
+.btn {
+    all: unset;
+    cursor: pointer;
+    font-family: "Manrope", sans-serif;
+    font-size: 1rem;
+    padding: 1.1em 2.8em;
+    border: 0.2em solid  #6EC72D;
+    border-radius: 46px;
+    transition: all 0.3s ease-in-out;
+  }
+.btn:hover {
+    color: #6EC72D;
+  }
+
+.heading {
+    font-size: 2rem;
+    font-weight: 900;
+    color: black ;
+}
+.content > input {
+    padding: 1.3em 10em 1.3em 4em;
+    border-radius: 30px;
+    outline: none;
+    border: 0.2em solid  #6EC72D;
+}
+
+.content > input::placeholder {
+    color: #27292e;
+    font-size: 0.9rem;
+}
