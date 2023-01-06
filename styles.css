@@ -38,14 +38,13 @@ body {
     font-family: "Manrope", sans-serif;
     font-size: 1rem;
     padding: 1.1em 2.8em;
-    border: 0.2em solid  #6EC72D;
-    border-radius: 46px;
+    border-radius: 30px;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
-    background-color: white;
+    border: .1em solid #ffffff;
   }
 .btn:hover {
-    color: #6EC72D;
+    background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb);
 }
 .heading {
     font-size: 2rem;
@@ -59,7 +58,6 @@ body {
     padding: 1.3em 10em 1.3em 4em;
     border-radius: 30px;
     outline: none;
-    border: 0.2em solid  #6EC72D;
 }
 
 .content > input::placeholder {
